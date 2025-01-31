@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang = "en" dir = "ltr">
+
+    <head>
+        <meta charset = "utf-8">
+
+        <!-- Favicon -->
+        <link rel = "icon" type = "favicon" href = "images/favicon.PNG">
+
+        <title> HOME </title>
+
+        <!-- CSS only component of Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/master.css">
+
+        <!-- Media Query for Narrow Browswer Width -->
+        <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css">
+        <!-- Media Query for Medium Browser Width -->
+        <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="css/tablet.css">
+        <!-- Media Query for Full Browswer Width -->
+        <link rel="stylesheet" media="only screen and (min-width: 961px)" href="css/desktop.css">
+        <!-- Prevent mobile devices from scaling pages down -->
+        <meta name="viewport" content="initial-scale=1">
+
+        <style>
+
+            html{
+                background-color : #bdfbda;
+                background-repeat: no-repeat;
+                background-position : center center;
+                background-attachment : fixed;
+                background-size : cover;
+            }
+
+        </style>
+
+    </head>
+
+    <div id = "wrap">
+        
+        <header>
+
+        <!-- Navbar starts here -->
+        <div class="container">
+            <div id = "nav" class = "row">
+              <div class="col-md-12 noMargin">
+              <!-- Navigation Starts Here -->
+                <nav class="navbar fixed-top navbar-expand-lg navbar-light" style = "background-color : #e3f2fd">
+                  <div class="container-fluid">
+                    <a class= "navbar-brand"> MENU </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <!-- <span class="navbar-toggler-icon"></span> -->
+                      <span class="material-icons-outlined">
+                        <img src="images/hamburger.png" class = "hamburger" width = 24 height = 24>
+                      </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="index.html"> Home </a>
+                      </div>
+                      <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="resume.html"> Menu </a>
+                      </div>
+                      <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="projects.html"> Delivery Options </a>
+                      </div>
+                      <!-- <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="contact.html"> Contact </a>
+                      </div> -->
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <!-- Navbar ends here -->
+
+        </header>
+
+        <section id = "restaurantMenuFront">
+
+            <div class = "img-wrapper">
+                <img class = "menu-front-img" src = "images/menuFront.PNG" alt = "Front of Menu">
+            </div>
+
+        </section>
+
+        <section id = "restaurantMenuBack">
+
+            <div class = "img-wrapper">
+                <img class = "menu-back-img" src = "images/menuBack.PNG" alt = "Back of Menu">
+            </div>
+
+        </section>
+
+
+    </div>
+
+
+</html>
