@@ -101,7 +101,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 0vh;
+    padding-top: 5vh;
     width: 100%;
 }
 .about-section img{
@@ -117,7 +117,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 2vh;
+    padding-top: 5vh;
     padding-bottom: 2vh;
     width: 100%;
 }
